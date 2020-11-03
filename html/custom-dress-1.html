@@ -85,12 +85,16 @@
             style="background: url(/img/header-dress-1.png) no-repeat center center; background-size: cover; height: 550px; width: 100%; border-bottom: solid 10px #d47283;">
         </div>
           
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb bg-pink rounded-0" >
-                <li class="breadcrumb-item"><a class="text-muted text-decoration-none" href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Custom Order</li>
-            </ol>
-        </nav>
+        <div class="bg-pink">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-pink rounded-0" >
+                        <li class="breadcrumb-item"><a class="text-muted text-decoration-none" href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Custom Order</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
 
         <!-- Slider Menu -->
         <div class="bg-white w-100" id="sliderFix">
@@ -158,12 +162,11 @@
                         </div>
                     </div>
 
-                    <div class="item" id="buttonCheckout">
+                    <!-- <div class="item" id="buttonCheckout">
                         <div class="card bg-success py-2 px-lg-3 px-2 text-center my-auto" style="height: auto; min-height:80px;">
-                            <!-- <img id="imgNiqob" src="/img/icons/4.jpg" class="mx-auto" alt="..." style="height: 35px; width:auto;"> -->
                             <p class="m-0 mt-2 text-white text-center font-weight-bold my-auto">CHECKOUT</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -246,6 +249,9 @@
                             <div class="rounded-top imgcheckbox" style="height:200px; width:100%; background-image: url('/img/page1-04.jpg');background-position: top; background-repeat: no-repeat; background-size: cover;"></div>
                             <div class="rounded text-dark text-center pt-2 pb-1">
                                 <h6 class="text-muted">SERIES 1</h6>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
                             </div>
                         </label>
                     </li>
@@ -255,6 +261,9 @@
                             <div class="rounded-top imgcheckbox" style="height:200px; width:100%; background-image: url('/img/page1-04.jpg');background-position: top; background-repeat: no-repeat; background-size: cover;"></div>
                             <div class="rounded text-dark text-center pt-2 pb-1">
                                 <h6 class="text-muted">SERIES 2</h6>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
                             </div>
                         </label>
                     </li>
@@ -284,26 +293,38 @@
                         <img src="/img/katalog-warna.png" class="mb-3" alt="" style="width: 60%; max-width: 400px; height: auto;">
                     </div>
                     <div class="col-lg-6 col-12 text-center">
-                        <ul class="checkboxImg p-0 ">
-                            <li class="checkboxImg">
+                        <ul class="checkboxImg p-0">
+                            <li class="checkboxImg text-center d-flex flex-row align-content-center align-items-center">
                                 <input type="checkbox" id="color1" name="colorCheck[]"/>
                                 <label for="color1" class="border rounded-circle imgcheckbox bg-danger" style="height:55px; width:55px;">
                                 </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
                             </li>
-                            <li class="checkboxImg">
+                            <li class="checkboxImg  text-center d-flex flex-row align-content-center align-items-center">
                                 <input type="checkbox" id="color2" name="colorCheck[]"/>
                                 <label for="color2" class="border rounded-circle imgcheckbox bg-info" style="height:55px; width:55px;">
                                 </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
                             </li>
-                            <li class="checkboxImg">
+                            <li class="checkboxImg  text-center d-flex flex-row align-content-center align-items-center">
                                 <input type="checkbox" id="color3" name="colorCheck[]"/>
                                 <label for="color3" class="border rounded-circle imgcheckbox bg-warning" style="height:55px; width:55px;">
                                 </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
                             </li>
-                            <li class="checkboxImg">
+                            <li class="checkboxImg  text-center d-flex flex-row align-content-center align-items-center">
                                 <input type="checkbox" id="color4" name="colorCheck[]"/>
                                 <label for="color4" class="border rounded-circle imgcheckbox bg-primary" style="height:55px; width:55px;">
                                 </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -327,41 +348,59 @@
     
             <!-- Daftar Card -->
             <div class="container mb-5 text-center">
-                <img src="/img/katalog-size.png" class="mb-3" alt="" style="width: 60%; max-width: 400px; height: auto;">
-                <ul class="checkboxImg row p-0 justify-content-center">
-                    <li class="checkboxImg">
-                        <input type="checkbox" id="size1" name="sizeCheck[]"/>
-                        <label for="size1" class="border">
-                            <div class="rounded text-dark text-center p-3">
-                                <h6 class="text-muted mb-0">XS</h6>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="checkboxImg">
-                        <input type="checkbox" id="size2" name="sizeCheck[]"/>
-                        <label for="size2" class="border">
-                            <div class="rounded text-dark text-center p-3">
-                                <h6 class="text-muted mb-0">S</h6>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="checkboxImg">
-                        <input type="checkbox" id="size3" name="sizeCheck[]"/>
-                        <label for="size3" class="border">
-                            <div class="rounded text-dark text-center p-3">
-                                <h6 class="text-muted mb-0">M</h6>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="checkboxImg">
-                        <input type="checkbox" id="size4" name="sizeCheck[]"/>
-                        <label for="size4" class="border">
-                            <div class="rounded text-dark text-center p-3">
-                                <h6 class="text-muted mb-0">L</h6>
-                            </div>
-                        </label>
-                    </li>
-                </ul>
+                <div class="row">
+                    <div class="col-lg-6 col-12 text-center">
+                        <img src="/img/katalog-size.png" class="mb-3" alt="" style="width: 60%; max-width: 400px; height: auto;">
+                    </div>
+                    <div class="col-lg-6 col-12 text-center">
+                        <ul class="checkboxImg p-0">
+                            <li class="checkboxImg text-center d-flex flex-row align-content-center align-items-center">
+                                <input type="checkbox" id="size1" name="sizeCheck[]"/>
+                                <label for="size1" class="border" style="height:55px; width:55px;">
+                                    <div class="rounded text-dark text-center p-3">
+                                        <h6 class="text-muted mb-0">XS</h6>
+                                    </div>
+                                </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
+                            </li>
+                            <li class="checkboxImg text-center d-flex flex-row align-content-center align-items-center">
+                                <input type="checkbox" id="size2" name="sizeCheck[]"/>
+                                <label for="size2" class="border" style="height:55px; width:55px;">
+                                    <div class="rounded text-dark text-center p-3">
+                                        <h6 class="text-muted mb-0">S</h6>
+                                    </div>
+                                </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
+                            </li>
+                            <li class="checkboxImg text-center d-flex flex-row align-content-center align-items-center">
+                                <input type="checkbox" id="size3" name="sizeCheck[]"/>
+                                <label for="size3" class="border" style="height:55px; width:55px;">
+                                    <div class="rounded text-dark text-center p-3">
+                                        <h6 class="text-muted mb-0">M</h6>
+                                    </div>
+                                </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
+                            </li>
+                            <li class="checkboxImg text-center d-flex flex-row align-content-center align-items-center">
+                                <input type="checkbox" id="size4" name="sizeCheck[]"/>
+                                <label for="size4" class="border" style="height:55px; width:55px;">
+                                    <div class="rounded text-dark text-center p-3">
+                                        <h6 class="text-muted mb-0">L</h6>
+                                    </div>
+                                </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -421,6 +460,9 @@
                             <div class="rounded-top imgcheckbox" style="height:200px; width:100%; background-image: url('/img/page1-04.jpg');background-position: top; background-repeat: no-repeat; background-size: cover;"></div>
                             <div class="rounded text-dark text-center pt-2 pb-1">
                                 <h6 class="text-muted">PHASMINA</h6>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
                             </div>
                         </label>
                     </li>
@@ -430,6 +472,9 @@
                             <div class="rounded-top imgcheckbox" style="height:200px; width:100%; background-image: url('/img/page1-04.jpg');background-position: top; background-repeat: no-repeat; background-size: cover;"></div>
                             <div class="rounded text-dark text-center pt-2 pb-1">
                                 <h6 class="text-muted">SQUARE</h6>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
                             </div>
                         </label>
                     </li>
@@ -440,6 +485,9 @@
                             <div class="rounded-top imgcheckbox" style="height:200px; width:100%; background-image: url('/img/page1-04.jpg');background-position: top; background-repeat: no-repeat; background-size: cover;"></div>
                             <div class="rounded text-dark text-center pt-2 pb-1">
                                 <h6 class="text-muted">TANPA KHIMAR</h6>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
                             </div>
                         </label>
                     </li>
@@ -464,33 +512,48 @@
     
             <!-- Daftar Card -->
             <div class="container mb-5 text-center">
-                <img src="/img/niqop.png" class="mb-3" alt="" style="width: 60%; max-width: 400px; height: auto;">
-                <ul class="checkboxImg row p-0 justify-content-center align-items-center">
-                    <li class="checkboxImg">
-                        <input type="checkbox" id="niqob1" name="niqobCheck[]"/>
-                        <label for="niqob1" class="border">
-                            <div class="rounded text-dark text-center p-3">
-                                <h6 class="text-muted mb-0">20 CM</h6>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="checkboxImg">
-                        <input type="checkbox" id="niqob2" name="niqobCheck[]"/>
-                        <label for="niqob2" class="border">
-                            <div class="rounded text-dark text-center p-3">
-                                <h6 class="text-muted mb-0">30 CM</h6>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="checkboxImg">
-                        <input type="checkbox" id="niqob3" name="niqobCheck[]"/>
-                        <label for="niqob3" class="border">
-                            <div class="rounded text-dark text-center p-3">
-                                <h6 class="text-muted mb-0">TANPA NIQOB</h6>
-                            </div>
-                        </label>
-                    </li>
-                </ul>
+                <div class="row">
+                    <div class="col-lg-6 col-12 text-center">
+                        <img src="/img/niqop.png" class="mb-3" alt="" style="width: 60%; max-width: 400px; height: auto;">
+                    </div>
+                    <div class="col-lg-6 col-12 text-center">
+                        <ul class="checkboxImg">
+                            <li class="checkboxImg d-flex flex-row align-content-center align-items-center">
+                                <input type="checkbox" id="niqob1" name="niqobCheck[]"/>
+                                <label for="niqob1" class="border">
+                                    <div class="rounded text-dark text-center p-3">
+                                        <h6 class="text-muted mb-0">20 CM</h6>
+                                    </div>
+                                </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
+                            </li>
+                            <li class="checkboxImg d-flex flex-row align-content-center align-items-center">
+                                <input type="checkbox" id="niqob2" name="niqobCheck[]"/>
+                                <label for="niqob2" class="border">
+                                    <div class="rounded text-dark text-center p-3">
+                                        <h6 class="text-muted mb-0">30 CM</h6>
+                                    </div>
+                                </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
+                            </li>
+                            <li class="checkboxImg d-flex flex-row align-content-center align-items-center">
+                                <input type="checkbox" id="niqob3" name="niqobCheck[]"/>
+                                <label for="niqob3" class="border">
+                                    <div class="rounded text-dark text-center p-3">
+                                        <h6 class="text-muted mb-0">TANPA NIQOB</h6>
+                                    </div>
+                                </label>
+                                <p class="text-pink-2 mb-1">
+                                    Rp. 200.000
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -538,7 +601,12 @@
                     </div>
                   </li>
                 </ul>
-                <div class="d-flex flex-row">
+                <label for="firstName">Email Address</label><label class="text-danger">*</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="required">
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+                <div class="d-flex flex-row mt-3">
                     <button class="btn btn-pink-1 flex-fill mr-1 text-white">CHECKOUT</button>
                     <button class="btn btn-pink-2 flex-fill ml-1 text-white">ADD TO CART</button>
                 </div>
@@ -547,7 +615,7 @@
 
         
         <!-- Footer -->
-        <footer class="bg-pink" style="border-top: solid 10px #d47283;"">
+        <footer class="bg-pink" style="border-top: solid 10px #d47283;">
             <div class="container py-5">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12 text-lg-left text-center mb-lg-0 mb-4">
