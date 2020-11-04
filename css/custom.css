@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
 .text-pink-1 {
-    color: #f3b8bf;
+    color: #f3b8bf !important;
 }
 
 .text-pink-2 {
-    color: #d47283;
+    color: #d47283 !important;
 }
 
 .bg-pink-1 {
-    background-color: #f3b8bf;
+    background-color: #f3b8bf !important;
 }
 
 .bg-pink-2 {
-    background-color: #d47283;
+    background-color: #d47283 !important;
 }
 
 .bg-pink {
-    background-color: #fef2f3;
+    background-color: #fef2f3 !important;
 }
 
 .text-noto {
