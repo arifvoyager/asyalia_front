@@ -27,6 +27,8 @@
 
 .sw .toolbar {
     padding: .8rem;
+    
+    
 }
 
 .sw .toolbar > .btn {
@@ -680,4 +682,8 @@
 
 .sw-theme-progress.sw-dark > .nav .nav-link.danger::after {
     background: #d9534f;
+}
+
+.tab-content{
+    height:718.938px !important;
 }
