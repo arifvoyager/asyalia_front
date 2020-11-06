@@ -281,17 +281,31 @@
 
     <script src="/js/clipboard.min.js"></script>
     <script>
-        new ClipboardJS('.btn');
-        var btns = document.querySelectorAll('button');
-        var clipboard = new ClipboardJS(btns);
+        var clipboard = new ClipboardJS('.btn');
 
         clipboard.on('success', function (e) {
-            console.log(e);
+            console.info('Action:', e.action);
+            console.info('Text:', e.text);
+            console.info('Trigger:', e.trigger);
+
+            e.clearSelection();
         });
 
         clipboard.on('error', function (e) {
-            console.log(e);
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
         });
+        // new ClipboardJS('.btn');
+        // var btns = document.querySelectorAll('button');
+        // var clipboard = new ClipboardJS(btns);
+
+        // clipboard.on('success', function (e) {
+        //     console.log(e);
+        // });
+
+        // clipboard.on('error', function (e) {
+        //     console.log(e);
+        // });
     </script>
 
 
