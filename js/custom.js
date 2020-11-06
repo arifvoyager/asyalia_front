@@ -200,3 +200,4 @@ $('input[type="checkbox"]').on('change', function() {
         scrollTop: niqobSec
       }, 500);
 });
+
