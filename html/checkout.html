@@ -170,18 +170,6 @@
                     </div>
 
                     <div class="d-block my-3">
-                        <!-- <div class="custom-control custom-radio">
-                          <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
-                          <label class="custom-control-label" for="credit">BCA</label>
-                        </div>
-                        <div class="custom-control custom-radio">
-                          <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                          <label class="custom-control-label" for="debit">BNI</label>
-                        </div>
-                        <div class="custom-control custom-radio">
-                          <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                          <label class="custom-control-label" for="paypal">BRI</label>
-                        </div> -->
 
                         <ul class="list-group mb-3">
                             <li class="list-group-item d-flex justify-content-between lh-condensed">
@@ -277,22 +265,6 @@
     </div>
 
 
-    <!-- <script>
-        function myFunction() {
-          var copyText = document.getElementById("myInput");
-          copyText.select();
-          copyText.setSelectionRange(0, 99999);
-          document.execCommand("copy");
-          
-          var tooltip = document.getElementById("myTooltip");
-          tooltip.innerHTML = "Copied: " + copyText.value;
-        }
-        
-        function outFunc() {
-          var tooltip = document.getElementById("myTooltip");
-          tooltip.innerHTML = "Copy to clipboard";
-        }
-        </script> -->
 
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -310,17 +282,17 @@
     <script src="/js/clipboard.min.js"></script>
     <script>
         new ClipboardJS('.btn');
-        var btns = document.querySelectorAll('button'); 
+        var btns = document.querySelectorAll('button');
         var clipboard = new ClipboardJS(btns);
-    
-        clipboard.on('success', function(e) {
+
+        clipboard.on('success', function (e) {
             console.log(e);
         });
-    
-        clipboard.on('error', function(e) {
+
+        clipboard.on('error', function (e) {
             console.log(e);
         });
-        </script>
+    </script>
 
 
 </body>
